@@ -58,5 +58,5 @@ Run in order in DBeaver:
 
 William Rivera Jr
 Field Inventory Manager to Data Analyst
-Portfolio: your-portfolio-url
-LinkedIn: your-linkedin-url
+Portfolio: Coming Soon
+LinkedIn: https://linkedin.com/in/william-rivera-966230309
