@@ -2,7 +2,7 @@
 
 > **Synthetic data.** All sites, surgeons, procedures, quantities, and cost figures in this project are fabricated for demonstration. Site and surgeon identifiers are coded and correspond to no real facility, practitioner, or organization. No proprietary or employer data is used.
 
-### PostgreSQL � DBeaver � Docker Desktop
+### PostgreSQL | DBeaver | Docker Desktop
 
 A relational database project simulating a regional medical supply chain across six clinical sites. Built to demonstrate real-world inventory auditing, shipment discrepancy detection, PAR-level analysis, and cost exposure reporting using PostgreSQL.
 
@@ -15,11 +15,11 @@ This project is rooted in 15 years of hands-on operations experience including f
 7 tables designed to track the full inventory lifecycle:
 
 - products: 15 medical supply items with PAR levels and reorder quantities
-- locations: 6 sites � hospitals, clinics, and a central warehouse
+- locations: 6 sites | hospitals, clinics, and a central warehouse
 - inventory: Current stock levels per product per location
 - purchase_orders: Orders placed to restock inventory
 - shipments: What actually arrived vs what was ordered
-- discrepancies: Flagged mismatches � shortages, overages, stockout risks
+- discrepancies: Flagged mismatches | shortages, overages, stockout risks
 - audit_log: Complete history of every inventory movement
 
 ## Setup
@@ -51,8 +51,8 @@ Run in order in DBeaver:
 ## Key Findings
 
 - 59752 dollars in total reorder cost exposure across three underperforming sites
-- SITE-05 had the highest gap cost at 7784 dollars � furthest below PAR across 15 products
-- SITE-03 had a 33.3% shipment fulfillment rate � only 1 in 3 shipments arrived correctly
+- SITE-05 had the highest gap cost at 7784 dollars | furthest below PAR across 15 products
+- SITE-03 had a 33.3% shipment fulfillment rate | only 1 in 3 shipments arrived correctly
 - N95 Respirators were the highest-cost reorder item at 3600 dollars per site
 - A mislabeled shipment note flagged as an overage was actually a shortage
 - Normal Saline moved in large infrequent swings averaging 260 units per adjustment
